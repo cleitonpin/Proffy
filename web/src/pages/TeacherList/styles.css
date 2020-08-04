@@ -48,6 +48,13 @@
     bottom: 0;
 }
 
+#page-techer-list main {
+    margin: 3.2rem auto;
+    width: 90%;
+}
+
+
+
 @media (min-width: 700px) {
     #page-techer-list {
         max-width: 100%;
@@ -58,12 +65,17 @@
         grid-template-columns: repeat(3, 1fr);
         column-gap: 16px;
         position: absolute;
-        bottom: -44px;
+        bottom: -30px;
     }
 
     #search-teachers .input-block + .input-block{
         margin-top: 0;
     }
 
+    #page-techer-list main {
+        padding: 32px 0;
+        max-width: 740px;
+        margin: 0 auto;
+    }
 
 }
